@@ -360,7 +360,9 @@ main {
     border: none;
     padding: 8px;
     border-radius: 4px;
-    width: 160px;
-    height: 64px; }
+    width: 270px;
+    height: 64px;
+    text-align: center;
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
