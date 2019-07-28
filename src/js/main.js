@@ -22,7 +22,7 @@ fetch("https://api.openweathermap.org/data/2.5/group?id=763166,756135,3099434,77
       e.preventDefault();
       const text = document.querySelector('.form__temp--js');
       const result = parseInt(text.value);
-      console.log(result);
+      
       if (result) {
         const index = temp.indexOf(result);
         const city = cities[index];
