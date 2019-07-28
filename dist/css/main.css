@@ -364,5 +364,13 @@ main {
     height: 64px;
     text-align: center;
     font-weight: bold; }
+  .form__submit {
+    margin: 32px;
+    background: #ededee;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    color: #000000d7; }
 
 /*# sourceMappingURL=main.css.map */
