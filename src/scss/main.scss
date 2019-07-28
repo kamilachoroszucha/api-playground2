@@ -1,6 +1,6 @@
 @import "_normalize";
 @import "_variables";
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext');
 
 html {
   box-sizing: border-box;
@@ -9,8 +9,46 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.answer{
+  font-weight:bold;
+  text-align:center;
+  margin-top: 32px;
+  font-size: 24px;
 
-body {
-  color: $yellow;
-  background: $violet;
+}
+.body{
+  background:#ffffffd5;
+}
+main{
+  width:100%;
+  max-width:600px;
+  min-height: 100vh;
+  margin:72px auto;
+  font-family: 'Open sans';
+}
+
+.heading{
+  text-align:center;
+  padding:32px;
+}
+
+.form{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  &__label{
+    font-size:28px;
+    color:#000000d7;
+    padding:32px;
+  }
+  &__temp{
+    margin:32px;
+    background:#ededee;
+    border:none;
+    padding: 8px;
+    border-radius: 4px;
+    width: 160px;
+    height:64px;
+  }
 }
