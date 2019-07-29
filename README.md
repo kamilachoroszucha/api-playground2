@@ -1,10 +1,5 @@
-# wtf-gulp-starter
+# Where should I go?
 
-`npm install -g gulp-cli`
+Enter how many degrees whould you like to be in and this page will tell you where to go 😉.
 
-`npm install`
-
-`gulp`
-
-To publish your page using github pages use `npm run deploy`
-"# api-playground2" 
+You are welcome to try it here: [Where should I go?](https://kamilachoroszucha.github.io/api-playground2/)
