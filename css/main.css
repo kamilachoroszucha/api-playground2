@@ -312,7 +312,9 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
@@ -330,14 +332,23 @@ main {
   max-width: 600px;
   min-height: 100vh;
   margin: 72px auto;
-  font-family: 'Open sans'; }
+  font-family: "Open sans"; }
+  @media (max-width: 425px) {
+    main {
+      margin: 16px auto; } }
 
 .heading {
   text-align: center;
   padding: 32px; }
+  @media (max-width: 425px) {
+    .heading {
+      font-size: 26px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      padding: 0; } }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -361,6 +372,10 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 28px;
     color: #000000d7;
     padding: 32px; }
+    @media (max-width: 425px) {
+      .form__label {
+        padding: 0;
+        font-size: 22px; } }
   .form__temp {
     margin: 32px;
     background: #ededee;
@@ -371,13 +386,22 @@ input[type=number]::-webkit-outer-spin-button {
     height: 64px;
     text-align: center;
     font-weight: bold; }
+    @media (max-width: 425px) {
+      .form__temp {
+        margin-bottom: 16px;
+        padding: 0;
+        height: 48px;
+        width: 260px; } }
   .form__submit {
     margin: 32px;
-    background: #ededee;
+    background: #4bf0e2;
     border: none;
     padding: 8px;
     border-radius: 4px;
     text-align: center;
     color: #000000d7; }
+    @media (max-width: 425px) {
+      .form__submit {
+        margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */
