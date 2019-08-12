@@ -1,5 +1,7 @@
 "use strict";
 
+
+
 fetch("https://api.openweathermap.org/data/2.5/group?id=763166,756135,3099434,776069,3081368,3096472,3083829,3088171,3080866,2950159,3143244,2643743,683506,3413829&APPID=d9b4d047a1d04c2aab0936d7fd2a6b64&units=metric")
   .then(resp => resp.json())
   .then(resp => {
